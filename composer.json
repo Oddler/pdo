@@ -1,0 +1,21 @@
+{
+    "name": "oddler/pdo2",
+    "description": "PDO",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["DB", "mysql", "sqlite", "pdo", "database"],
+    "version": "1.8.0",
+    "authors": [
+        {
+            "name" : "Oddler",
+            "homepage": "http://oddler.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {"Oddler\\Pdo\\": "src/"}
+    }
+}
